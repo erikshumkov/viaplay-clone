@@ -1,0 +1,88 @@
+.filmer {
+  background: #fff;
+  color: #212d33;
+  padding: 40px 0;
+  .wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  &-heading {
+    margin-bottom: 45px;
+    h2 {
+      font-weight: 400;
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+  .g-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    column-gap: 20px;
+    margin-bottom: 45px;
+    .film1,
+    .film2,
+    .film3,
+    .film4,
+    .film5,
+    .film6,
+    .film7 {
+      background-size: cover;
+      height: 267px;
+      width: 178px;
+    }
+    .film1 {
+      background: url('/img/bohemian.jpg') center center no-repeat;
+    }
+    .film2 {
+      background: url('/img/hustle.jpg') center center no-repeat;
+    }
+    .film3 {
+      background: url('/img/sparrow.jpg') center center no-repeat;
+    }
+    .film4 {
+      background: url('/img/state.jpg') center center no-repeat;
+    }
+    .film5 {
+      background: url('/img/dam.jpg') center center no-repeat;
+    }
+    .film6 {
+      background: url('/img/water.jpg') center center no-repeat;
+    }
+    .film7 {
+      background: url('/img/after.jpg') center center no-repeat;
+    }
+  }
+  .serier {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    .serie1,
+    .serie2,
+    .serie3,
+    .serie4,
+    .serie5 {
+      height: 145px;
+      width: 257px;
+    }
+    .serie1 {
+      background: url('/img/greys.jpg') center center no-repeat;
+      background-size: cover;
+    }
+    .serie2 {
+      background: url('/img/paradise.jpg') center center no-repeat;
+      background-size: cover;
+    }
+    .serie3 {
+      background: url('/img/lost.jpg') center center no-repeat;
+      background-size: cover;
+    }
+    .serie4 {
+      background: url('/img/minds.jpg') center center no-repeat;
+      background-size: cover;
+    }
+    .serie5 {
+      background: url('/img/box.jpg') center center no-repeat;
+      background-size: cover;
+    }
+  }
+}

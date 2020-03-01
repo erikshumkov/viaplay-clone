@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+
+@import 'header';
+@import 'howto';
+@import 'filmer';
+@import 'sporter';
+@import 'package';
+@import 'hyra';
+@import 'search';
+@import 'footer';

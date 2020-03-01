@@ -1,0 +1,84 @@
+.sporter {
+  background: #fff;
+  color: #212d33;
+  padding: 40px 0;
+  .wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  &-heading {
+    margin-bottom: 35px;
+    h2 {
+      font-weight: 400;
+      text-align: center;
+      font-size: 40px;
+    }
+  }
+  .g-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    row-gap: 65px;
+    .sport1,
+    .sport2,
+    .sport3,
+    .sport4,
+    .sport5,
+    .sport6,
+    .sport7,
+    .sport8 {
+      background-size: cover;
+      height: 134px;
+      width: 352px;
+      background: url('/img/cl.png') center center no-repeat;
+    }
+    .sport2 {
+      background: url('/img/pl.png') center center no-repeat;
+    }
+    .sport3 {
+      background: url('/img/nhl.png') center center no-repeat;
+    }
+    .sport4 {
+      background: url('/img/et.png') center center no-repeat;
+    }
+    .sport5 {
+      background: url('/img/bundesliga.png') center center no-repeat;
+    }
+    .sport6 {
+      background: url('/img/ufc.png') center center no-repeat;
+    }
+    .sport7 {
+      background: url('/img/nfl.png') center center no-repeat;
+    }
+    .sport8 {
+      background: url('/img/ihf.png') center center no-repeat;
+    }
+  }
+  .sporter-rights {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    .sporter-btn {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
+      font-size: 15px;
+      color: #3d4348;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 1px;
+      &:hover {
+        color: #004684;
+        border-color: #004684;
+      }
+      i {
+        margin-left: 3px;
+        font-size: 7px;
+        margin-bottom: -3px;
+        color: grey;
+      }
+    }
+  }
+}
