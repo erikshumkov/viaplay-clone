@@ -15,7 +15,7 @@ nav {
     align-items: center;
     justify-content: space-between; }
   nav .nav-img {
-    background: url("/img/logo.png") center center no-repeat;
+    background: url("../img/logo.png") center center no-repeat;
     background-size: cover;
     height: 35px;
     width: 146px; }
@@ -28,7 +28,7 @@ nav {
       font-size: 15px; }
 
 header {
-  background: url("/img/outlander_big.jpg") center center no-repeat;
+  background: url("../img/outlander_big.jpg") center center no-repeat;
   background-size: cover;
   height: 78vh;
   position: relative;
@@ -86,31 +86,6 @@ header {
   .action .sport {
     justify-self: start; }
 
-@media screen and (max-width: 600px) {
-  nav {
-    padding: 22px 0;
-    position: relative; }
-    nav .wrapper {
-      padding: 0 25px;
-      justify-content: flex-end; }
-    nav .nav-img {
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      margin: auto;
-      height: 25px;
-      width: 104px; }
-
-  header {
-    height: 40vh; }
-    header .jumbotron h1 {
-      font-size: 22px;
-      line-height: 35px; }
-    header .jumbotron p {
-      font-size: 15px;
-      line-height: 19px; } }
 .howto {
   padding: 60px 0;
   background: #edeef0; }
@@ -127,11 +102,11 @@ header {
     width: 200px;
     border-radius: 50%; }
   .howto .offline .img {
-    background: url("/img/offline.jpg") center center no-repeat; }
+    background: url("../img/offline.jpg") center center no-repeat; }
   .howto .eu .img {
-    background: url("/img/eu.jpg") center center no-repeat; }
+    background: url("../img/eu.jpg") center center no-repeat; }
   .howto .quit .img {
-    background: url("/img/quit.jpg") center center no-repeat; }
+    background: url("../img/quit.jpg") center center no-repeat; }
   .howto .offline,
   .howto .eu,
   .howto .quit {
@@ -188,19 +163,19 @@ header {
       height: 267px;
       width: 178px; }
     .filmer .g-container .film1 {
-      background: url("/img/bohemian.jpg") center center no-repeat; }
+      background: url("../img/bohemian.jpg") center center no-repeat; }
     .filmer .g-container .film2 {
-      background: url("/img/hustle.jpg") center center no-repeat; }
+      background: url("../img/hustle.jpg") center center no-repeat; }
     .filmer .g-container .film3 {
-      background: url("/img/sparrow.jpg") center center no-repeat; }
+      background: url("../img/sparrow.jpg") center center no-repeat; }
     .filmer .g-container .film4 {
-      background: url("/img/state.jpg") center center no-repeat; }
+      background: url("../img/state.jpg") center center no-repeat; }
     .filmer .g-container .film5 {
-      background: url("/img/dam.jpg") center center no-repeat; }
+      background: url("../img/dam.jpg") center center no-repeat; }
     .filmer .g-container .film6 {
-      background: url("/img/water.jpg") center center no-repeat; }
+      background: url("../img/water.jpg") center center no-repeat; }
     .filmer .g-container .film7 {
-      background: url("/img/after.jpg") center center no-repeat; }
+      background: url("../img/after.jpg") center center no-repeat; }
   .filmer .serier {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -213,19 +188,19 @@ header {
       height: 145px;
       width: 257px; }
     .filmer .serier .serie1 {
-      background: url("/img/greys.jpg") center center no-repeat;
+      background: url("../img/greys.jpg") center center no-repeat;
       background-size: cover; }
     .filmer .serier .serie2 {
-      background: url("/img/paradise.jpg") center center no-repeat;
+      background: url("../img/paradise.jpg") center center no-repeat;
       background-size: cover; }
     .filmer .serier .serie3 {
-      background: url("/img/lost.jpg") center center no-repeat;
+      background: url("../img/lost.jpg") center center no-repeat;
       background-size: cover; }
     .filmer .serier .serie4 {
-      background: url("/img/minds.jpg") center center no-repeat;
+      background: url("../img/minds.jpg") center center no-repeat;
       background-size: cover; }
     .filmer .serier .serie5 {
-      background: url("/img/box.jpg") center center no-repeat;
+      background: url("../img/box.jpg") center center no-repeat;
       background-size: cover; }
 
 .sporter {
@@ -258,21 +233,21 @@ header {
       background-size: cover;
       height: 134px;
       width: 352px;
-      background: url("/img/cl.png") center center no-repeat; }
+      background: url("../img/cl.png") center center no-repeat; }
     .sporter .g-container .sport2 {
-      background: url("/img/pl.png") center center no-repeat; }
+      background: url("../img/pl.png") center center no-repeat; }
     .sporter .g-container .sport3 {
-      background: url("/img/nhl.png") center center no-repeat; }
+      background: url("../img/nhl.png") center center no-repeat; }
     .sporter .g-container .sport4 {
-      background: url("/img/et.png") center center no-repeat; }
+      background: url("../img/et.png") center center no-repeat; }
     .sporter .g-container .sport5 {
-      background: url("/img/bundesliga.png") center center no-repeat; }
+      background: url("../img/bundesliga.png") center center no-repeat; }
     .sporter .g-container .sport6 {
-      background: url("/img/ufc.png") center center no-repeat; }
+      background: url("../img/ufc.png") center center no-repeat; }
     .sporter .g-container .sport7 {
-      background: url("/img/nfl.png") center center no-repeat; }
+      background: url("../img/nfl.png") center center no-repeat; }
     .sporter .g-container .sport8 {
-      background: url("/img/ihf.png") center center no-repeat; }
+      background: url("../img/ihf.png") center center no-repeat; }
   .sporter .sporter-rights {
     margin-top: 80px;
     display: flex;
@@ -533,19 +508,19 @@ header {
       height: 267px;
       width: 178px; }
     .hyra .g-container .hyr1 {
-      background: url("/img/joker.jpg") center center no-repeat; }
+      background: url("../img/joker.jpg") center center no-repeat; }
     .hyra .g-container .hyr2 {
-      background: url("/img/tre.jpg") center center no-repeat; }
+      background: url("../img/tre.jpg") center center no-repeat; }
     .hyra .g-container .hyr3 {
-      background: url("/img/rambo.jpg") center center no-repeat; }
+      background: url("../img/rambo.jpg") center center no-repeat; }
     .hyra .g-container .hyr4 {
-      background: url("/img/astra.jpg") center center no-repeat; }
+      background: url("../img/astra.jpg") center center no-repeat; }
     .hyra .g-container .hyr5 {
-      background: url("/img/det.jpg") center center no-repeat; }
+      background: url("../img/det.jpg") center center no-repeat; }
     .hyra .g-container .hyr6 {
-      background: url("/img/once.jpg") center center no-repeat; }
+      background: url("../img/once.jpg") center center no-repeat; }
     .hyra .g-container .hyr7 {
-      background: url("/img/mamma.jpg") center center no-repeat; }
+      background: url("../img/mamma.jpg") center center no-repeat; }
   .hyra .noneed {
     display: flex;
     justify-content: center;
@@ -622,7 +597,7 @@ footer {
       height: 90px;
       width: 80px; }
       footer .g-container .logo .img {
-        background: url("/img/footer-logo.png") center center no-repeat;
+        background: url("../img/footer-logo.png") center center no-repeat;
         background-size: cover;
         width: 100%;
         height: 100%; }
@@ -651,10 +626,90 @@ footer {
     color: #bbc1c4;
     font-size: 14px; }
     footer .all-rights .img {
-      background: url("/img/partof.png") center center no-repeat;
+      background: url("../img/partof.png") center center no-repeat;
       background-size: cover;
       height: 25px;
       width: 131px;
       margin-left: 40px; }
+
+@media (max-width: 768px) {
+  nav {
+    padding: 22px 40px 22px 0;
+    position: relative; }
+    nav .wrapper {
+      padding: 0 25px;
+      justify-content: flex-end; }
+    nav .nav-img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      height: 35px;
+      width: 145px; }
+
+  header {
+    height: 70vh; }
+    header .jumbotron {
+      bottom: 15px; }
+      header .jumbotron h1 {
+        font-size: 28px;
+        line-height: 35px; }
+      header .jumbotron p {
+        font-size: 15px;
+        line-height: 19px; }
+
+  .action {
+    column-gap: 65px; }
+
+  .howto {
+    display: none; }
+
+  .filmer .filmer-heading {
+    margin-bottom: 25px; }
+    .filmer .filmer-heading h2 {
+      font-size: 23px; }
+  .filmer .g-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px 0;
+    margin: 0 auto 45px auto;
+    justify-items: center;
+    width: 75%; }
+    .filmer .g-container .film4 {
+      display: none; }
+  .filmer .serier {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px 0;
+    justify-items: center;
+    width: 71%;
+    margin: 0 auto; }
+    .filmer .serier .serie5 {
+      display: none; }
+
+  .sporter .sporter-heading {
+    display: none; }
+
+  .package .package-header h2 {
+    font-size: 26px; }
+  .package .g-container {
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-gap: 20px; }
+    .package .g-container .sport-paket,
+    .package .g-container .total-paket {
+      justify-self: inherit; }
+  .package .readmore {
+    font-size: 12px; }
+
+  .hyra .g-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto 60px auto;
+    justify-items: center;
+    grid-gap: 20px 0;
+    width: 75%; }
+    .hyra .g-container .hyr7 {
+      display: none; } }
 
 /*# sourceMappingURL=style.css.map */

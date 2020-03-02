@@ -10,7 +10,7 @@ nav {
   }
 
   .nav-img {
-    background: url('/img/logo.png') center center no-repeat;
+    background: url('../img/logo.png') center center no-repeat;
     background-size: cover;
     height: 35px;
     width: 146px;
@@ -28,7 +28,7 @@ nav {
 }
 
 header {
-  background: url('/img/outlander_big.jpg') center center no-repeat;
+  background: url('../img/outlander_big.jpg') center center no-repeat;
   background-size: cover;
   height: 78vh;
   position: relative;
@@ -91,39 +91,5 @@ header {
   }
   .sport {
     justify-self: start;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  nav {
-    padding: 22px 0;
-    position: relative;
-    .wrapper {
-      padding: 0 25px;
-      justify-content: flex-end;
-    }
-    .nav-img {
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      margin: auto;
-      height: 25px;
-      width: 104px;
-    }
-  }
-  header {
-    height: 40vh;
-    .jumbotron {
-      h1 {
-        font-size: 22px;
-        line-height: 35px;
-      }
-      p {
-        font-size: 15px;
-        line-height: 19px;
-      }
-    }
   }
 }

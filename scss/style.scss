@@ -15,3 +15,113 @@
 @import 'hyra';
 @import 'search';
 @import 'footer';
+
+@media (max-width: 768px) {
+  nav {
+    padding: 22px 40px 22px 0;
+    position: relative;
+    .wrapper {
+      padding: 0 25px;
+      justify-content: flex-end;
+    }
+    .nav-img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      height: 35px;
+      width: 145px;
+    }
+  }
+  header {
+    height: 70vh;
+    .jumbotron {
+      bottom: 15px;
+      h1 {
+        font-size: 28px;
+        line-height: 35px;
+      }
+      p {
+        font-size: 15px;
+        line-height: 19px;
+      }
+    }
+  }
+
+  .action {
+    column-gap: 65px;
+  }
+
+  .howto {
+    display: none;
+  }
+
+  .filmer {
+    .filmer-heading {
+      margin-bottom: 25px;
+      h2 {
+        font-size: 23px;
+      }
+    }
+    .g-container {
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px 0;
+      margin: 0 auto 45px auto;
+      justify-items: center;
+      width: 75%;
+      .film4 {
+        display: none;
+      }
+    }
+    .serier {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px 0;
+      justify-items: center;
+      width: 71%;
+      margin: 0 auto;
+      .serie5 {
+        display: none;
+      }
+    }
+  }
+  .sporter {
+    .sporter-heading {
+      display: none;
+    }
+  }
+  .package {
+    .package-header {
+      h2 {
+        font-size: 26px;
+      }
+    }
+    .g-container {
+      justify-items: center;
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+      .sport-paket,
+      .total-paket {
+        justify-self: inherit;
+      }
+    }
+    .readmore {
+      font-size: 12px;
+    }
+  }
+
+  .hyra {
+    .g-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 0 auto 60px auto;
+      justify-items: center;
+      grid-gap: 20px 0;
+      width: 75%;
+      .hyr7 {
+        display: none;
+      }
+    }
+  }
+}
