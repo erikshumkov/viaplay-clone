@@ -28,31 +28,52 @@
     .sport6,
     .sport7,
     .sport8 {
-      background-size: cover;
       height: 134px;
       width: 352px;
-      background: url('../img/cl.png') center center no-repeat;
+      .img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .sport1 {
+      .img {
+        background: url('../img/cl.png') no-repeat center center;
+      }
     }
     .sport2 {
-      background: url('../img/pl.png') center center no-repeat;
+      .img {
+        background: url('../img/pl.png') no-repeat center center;
+      }
     }
     .sport3 {
-      background: url('../img/nhl.png') center center no-repeat;
+      .img {
+        background: url('../img/nhl.png') no-repeat center center;
+      }
     }
     .sport4 {
-      background: url('../img/et.png') center center no-repeat;
+      .img {
+        background: url('../img/et.png') no-repeat center center;
+      }
     }
     .sport5 {
-      background: url('../img/bundesliga.png') center center no-repeat;
+      .img {
+        background: url('../img/bundesliga.png') no-repeat center center;
+      }
     }
     .sport6 {
-      background: url('../img/ufc.png') center center no-repeat;
+      .img {
+        background: url('../img/ufc.png') no-repeat center center;
+      }
     }
     .sport7 {
-      background: url('../img/nfl.png') center center no-repeat;
+      .img {
+        background: url('../img/nfl.png') no-repeat center center;
+      }
     }
     .sport8 {
-      background: url('../img/ihf.png') center center no-repeat;
+      .img {
+        background: url('../img/ihf.png') no-repeat center center;
+      }
     }
   }
   .sporter-rights {

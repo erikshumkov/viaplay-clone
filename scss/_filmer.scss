@@ -63,26 +63,40 @@
     .serie5 {
       height: 145px;
       width: 257px;
+      .img {
+        height: 100%;
+        width: 100%;
+      }
     }
     .serie1 {
-      background: url('../img/greys.jpg') center center no-repeat;
-      background-size: cover;
+      .img {
+        background: url('../img/greys.jpg') center center no-repeat;
+        background-size: cover;
+      }
     }
     .serie2 {
-      background: url('../img/paradise.jpg') center center no-repeat;
-      background-size: cover;
+      .img {
+        background: url('../img/paradise.jpg') center center no-repeat;
+        background-size: cover;
+      }
     }
     .serie3 {
-      background: url('../img/lost.jpg') center center no-repeat;
-      background-size: cover;
+      .img {
+        background: url('../img/lost.jpg') center center no-repeat;
+        background-size: cover;
+      }
     }
     .serie4 {
-      background: url('../img/minds.jpg') center center no-repeat;
-      background-size: cover;
+      .img {
+        background: url('../img/minds.jpg') center center no-repeat;
+        background-size: cover;
+      }
     }
     .serie5 {
-      background: url('../img/box.jpg') center center no-repeat;
-      background-size: cover;
+      .img {
+        background: url('../img/box.jpg') center center no-repeat;
+        background-size: cover;
+      }
     }
   }
 }
