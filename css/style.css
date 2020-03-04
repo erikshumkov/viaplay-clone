@@ -159,23 +159,38 @@ header {
     .filmer .g-container .film5,
     .filmer .g-container .film6,
     .filmer .g-container .film7 {
-      background-size: cover;
       height: 267px;
       width: 178px; }
-    .filmer .g-container .film1 {
-      background: url("../img/bohemian.jpg") center center no-repeat; }
-    .filmer .g-container .film2 {
-      background: url("../img/hustle.jpg") center center no-repeat; }
-    .filmer .g-container .film3 {
-      background: url("../img/sparrow.jpg") center center no-repeat; }
-    .filmer .g-container .film4 {
-      background: url("../img/state.jpg") center center no-repeat; }
-    .filmer .g-container .film5 {
-      background: url("../img/dam.jpg") center center no-repeat; }
-    .filmer .g-container .film6 {
-      background: url("../img/water.jpg") center center no-repeat; }
-    .filmer .g-container .film7 {
-      background: url("../img/after.jpg") center center no-repeat; }
+      .filmer .g-container .film1 .img,
+      .filmer .g-container .film2 .img,
+      .filmer .g-container .film3 .img,
+      .filmer .g-container .film4 .img,
+      .filmer .g-container .film5 .img,
+      .filmer .g-container .film6 .img,
+      .filmer .g-container .film7 .img {
+        height: 100%;
+        width: 100%; }
+    .filmer .g-container .film1 .img {
+      background: url("../img/bohemian.jpg") center center no-repeat;
+      background-size: cover; }
+    .filmer .g-container .film2 .img {
+      background: url("../img/hustle.jpg") center center no-repeat;
+      background-size: cover; }
+    .filmer .g-container .film3 .img {
+      background: url("../img/sparrow.jpg") center center no-repeat;
+      background-size: cover; }
+    .filmer .g-container .film4 .img {
+      background: url("../img/state.jpg") center center no-repeat;
+      background-size: cover; }
+    .filmer .g-container .film5 .img {
+      background: url("../img/dam.jpg") center center no-repeat;
+      background-size: cover; }
+    .filmer .g-container .film6 .img {
+      background: url("../img/water.jpg") center center no-repeat;
+      background-size: cover; }
+    .filmer .g-container .film7 .img {
+      background: url("../img/after.jpg") center center no-repeat;
+      background-size: cover; }
   .filmer .serier {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -521,23 +536,38 @@ header {
     .hyra .g-container .hyr5,
     .hyra .g-container .hyr6,
     .hyra .g-container .hyr7 {
-      background-size: cover;
       height: 267px;
       width: 178px; }
-    .hyra .g-container .hyr1 {
-      background: url("../img/joker.jpg") center center no-repeat; }
-    .hyra .g-container .hyr2 {
-      background: url("../img/tre.jpg") center center no-repeat; }
-    .hyra .g-container .hyr3 {
-      background: url("../img/rambo.jpg") center center no-repeat; }
-    .hyra .g-container .hyr4 {
-      background: url("../img/astra.jpg") center center no-repeat; }
-    .hyra .g-container .hyr5 {
-      background: url("../img/det.jpg") center center no-repeat; }
-    .hyra .g-container .hyr6 {
-      background: url("../img/once.jpg") center center no-repeat; }
-    .hyra .g-container .hyr7 {
-      background: url("../img/mamma.jpg") center center no-repeat; }
+      .hyra .g-container .hyr1 .img,
+      .hyra .g-container .hyr2 .img,
+      .hyra .g-container .hyr3 .img,
+      .hyra .g-container .hyr4 .img,
+      .hyra .g-container .hyr5 .img,
+      .hyra .g-container .hyr6 .img,
+      .hyra .g-container .hyr7 .img {
+        width: 100%;
+        height: 100%; }
+    .hyra .g-container .hyr1 .img {
+      background: url("../img/joker.jpg") center center no-repeat;
+      background-size: cover; }
+    .hyra .g-container .hyr2 .img {
+      background: url("../img/tre.jpg") center center no-repeat;
+      background-size: cover; }
+    .hyra .g-container .hyr3 .img {
+      background: url("../img/rambo.jpg") center center no-repeat;
+      background-size: cover; }
+    .hyra .g-container .hyr4 .img {
+      background: url("../img/astra.jpg") center center no-repeat;
+      background-size: cover; }
+    .hyra .g-container .hyr5 .img {
+      background: url("../img/det.jpg") center center no-repeat;
+      background-size: cover; }
+    .hyra .g-container .hyr6 .img {
+      background: url("../img/once.jpg") center center no-repeat;
+      background-size: cover; }
+    .hyra .g-container .hyr7 .img {
+      background: url("../img/mamma.jpg") center center no-repeat;
+      background-size: cover; }
   .hyra .noneed {
     display: flex;
     justify-content: center;
@@ -743,13 +773,29 @@ footer {
 
   .package .package-header h2 {
     font-size: 26px; }
+  .package .prova {
+    width: 340px;
+    padding: 30px 0; }
+    .package .prova h3 {
+      font-size: 26px;
+      margin-bottom: 35px; }
+    .package .prova .prova-btn {
+      width: 280px; }
   .package .g-container {
     justify-items: center;
     grid-template-columns: 1fr;
     grid-gap: 20px; }
     .package .g-container .sport-paket,
     .package .g-container .total-paket {
-      justify-self: inherit; }
+      padding: 30px 30px 35px;
+      width: 340px;
+      justify-self: center; }
+      .package .g-container .sport-paket .inkluderar,
+      .package .g-container .total-paket .inkluderar {
+        padding: 18px 0; }
+      .package .g-container .sport-paket .prova-btn,
+      .package .g-container .total-paket .prova-btn {
+        width: 280px; }
   .package .readmore {
     font-size: 12px; }
 
@@ -791,5 +837,104 @@ footer {
     footer .g-container .logo {
       grid-row: 6 / 7;
       justify-self: center; } }
+@media (max-width: 600px) {
+  nav {
+    padding-right: 25px; }
+    nav .wrapper {
+      padding: 0; }
+      nav .wrapper .nav-img {
+        height: 22px;
+        width: 92px; }
+
+  header {
+    min-height: 280px;
+    height: 44vh; }
+    header .jumbotron h1 {
+      font-size: 22px; }
+    header .jumbotron p {
+      width: 80%;
+      margin: 0 auto; }
+
+  .action {
+    column-gap: 20px; }
+    .action .film h3,
+    .action .sport h3 {
+      font-size: 15px; }
+    .action .film .action-btn,
+    .action .sport .action-btn {
+      height: 52px;
+      width: 157px;
+      font-size: 13px; }
+
+  .filmer .g-container {
+    width: 90%; }
+    .filmer .g-container .film1,
+    .filmer .g-container .film2,
+    .filmer .g-container .film3,
+    .filmer .g-container .film4,
+    .filmer .g-container .film5,
+    .filmer .g-container .film6,
+    .filmer .g-container .film7 {
+      width: 95px;
+      height: 143px; }
+  .filmer .serier {
+    width: 90%; }
+    .filmer .serier .serie1,
+    .filmer .serier .serie2,
+    .filmer .serier .serie3,
+    .filmer .serier .serie4,
+    .filmer .serier .serie5 {
+      height: 82px;
+      width: 147px; }
+
+  .sporter .g-container .sport1,
+  .sporter .g-container .sport2,
+  .sporter .g-container .sport3,
+  .sporter .g-container .sport4,
+  .sporter .g-container .sport5,
+  .sporter .g-container .sport6,
+  .sporter .g-container .sport7,
+  .sporter .g-container .sport8 {
+    height: 38px;
+    width: 38px; }
+  .sporter .sporter-rights {
+    margin-top: 25px; }
+    .sporter .sporter-rights .sporter-btn {
+      font-size: 14px; }
+
+  .package .prova {
+    width: 100%; }
+    .package .prova span {
+      font-size: 12px; }
+  .package .g-container .sport-paket,
+  .package .g-container .total-paket {
+    width: 100%; }
+    .package .g-container .sport-paket .quitter,
+    .package .g-container .total-paket .quitter {
+      font-size: 12px; }
+
+  .hyra .g-container {
+    width: 90%; }
+    .hyra .g-container .hyr1,
+    .hyra .g-container .hyr2,
+    .hyra .g-container .hyr3,
+    .hyra .g-container .hyr4,
+    .hyra .g-container .hyr5,
+    .hyra .g-container .hyr6,
+    .hyra .g-container .hyr7 {
+      width: 94px;
+      height: 142px; }
+  .hyra .noneed .prova-btn {
+    width: 90%;
+    margin-left: 0; }
+
+  .search form .search-input.small {
+    width: 140px; }
+
+  footer .all-rights p {
+    width: 85%;
+    text-align: center; }
+  footer .all-rights .img {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
