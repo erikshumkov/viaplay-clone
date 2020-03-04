@@ -613,6 +613,10 @@ header {
       border: 1px solid rgba(0, 0, 0, 0.3); }
       .search form .search-input:focus {
         color: #3d4348; }
+    .search form .search-input.large {
+      display: inline-block; }
+    .search form .search-input.small {
+      display: none; }
     .search form .search-btn {
       cursor: pointer;
       background-color: #212d33;
