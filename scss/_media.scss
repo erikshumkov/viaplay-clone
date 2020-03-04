@@ -110,13 +110,32 @@
         font-size: 26px;
       }
     }
+    .prova {
+      width: 340px;
+      padding: 30px 0;
+      h3 {
+        font-size: 26px;
+        margin-bottom: 35px;
+      }
+      .prova-btn {
+        width: 280px;
+      }
+    }
     .g-container {
       justify-items: center;
       grid-template-columns: 1fr;
       grid-gap: 20px;
       .sport-paket,
       .total-paket {
-        justify-self: inherit;
+        padding: 30px 30px 35px;
+        width: 340px;
+        justify-self: center;
+        .inkluderar {
+          padding: 18px 0;
+        }
+        .prova-btn {
+          width: 280px;
+        }
       }
     }
     .readmore {
@@ -177,6 +196,149 @@
       .logo {
         grid-row: 6 / 7;
         justify-self: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    padding-right: 25px;
+    .wrapper {
+      padding: 0;
+      .nav-img {
+        height: 22px;
+        width: 92px;
+      }
+    }
+  }
+  header {
+    min-height: 280px;
+    height: 44vh;
+    .jumbotron {
+      h1 {
+        font-size: 22px;
+      }
+      p {
+        width: 80%;
+        margin: 0 auto;
+      }
+    }
+  }
+  .action {
+    column-gap: 20px;
+    .film,
+    .sport {
+      h3 {
+        font-size: 15px;
+      }
+      .action-btn {
+        height: 52px;
+        width: 157px;
+        font-size: 13px;
+      }
+    }
+  }
+  .filmer {
+    .g-container {
+      width: 90%;
+      .film1,
+      .film2,
+      .film3,
+      .film4,
+      .film5,
+      .film6,
+      .film7 {
+        width: 95px;
+        height: 143px;
+      }
+    }
+    .serier {
+      width: 90%;
+      .serie1,
+      .serie2,
+      .serie3,
+      .serie4,
+      .serie5 {
+        height: 82px;
+        width: 147px;
+      }
+    }
+  }
+  .sporter {
+    .g-container {
+      .sport1,
+      .sport2,
+      .sport3,
+      .sport4,
+      .sport5,
+      .sport6,
+      .sport7,
+      .sport8 {
+        height: 38px;
+        width: 38px;
+      }
+    }
+    .sporter-rights {
+      margin-top: 25px;
+      .sporter-btn {
+        font-size: 14px;
+      }
+    }
+  }
+  .package {
+    .prova {
+      width: 100%;
+      span {
+        font-size: 12px;
+      }
+    }
+    .g-container {
+      .sport-paket,
+      .total-paket {
+        width: 100%;
+        .quitter {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .hyra {
+    .g-container {
+      width: 90%;
+      .hyr1,
+      .hyr2,
+      .hyr3,
+      .hyr4,
+      .hyr5,
+      .hyr6,
+      .hyr7 {
+        width: 94px;
+        height: 142px;
+      }
+    }
+    .noneed {
+      .prova-btn {
+        width: 90%;
+        margin-left: 0;
+      }
+    }
+  }
+  .search {
+    form {
+      .search-input.small {
+        width: 140px;
+      }
+    }
+  }
+  footer {
+    .all-rights {
+      p {
+        width: 85%;
+        text-align: center;
+      }
+      .img {
+        display: none;
       }
     }
   }

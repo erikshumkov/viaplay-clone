@@ -26,30 +26,54 @@
     .film5,
     .film6,
     .film7 {
-      background-size: cover;
       height: 267px;
       width: 178px;
+      .img {
+        height: 100%;
+        width: 100%;
+      }
     }
     .film1 {
-      background: url('../img/bohemian.jpg') center center no-repeat;
+      .img {
+        background: url('../img/bohemian.jpg') center center no-repeat;
+        background-size: cover;
+      }
     }
     .film2 {
-      background: url('../img/hustle.jpg') center center no-repeat;
+      .img {
+        background: url('../img/hustle.jpg') center center no-repeat;
+        background-size: cover;
+      }
     }
     .film3 {
-      background: url('../img/sparrow.jpg') center center no-repeat;
+      .img {
+        background: url('../img/sparrow.jpg') center center no-repeat;
+        background-size: cover;
+      }
     }
     .film4 {
-      background: url('../img/state.jpg') center center no-repeat;
+      .img {
+        background: url('../img/state.jpg') center center no-repeat;
+        background-size: cover;
+      }
     }
     .film5 {
-      background: url('../img/dam.jpg') center center no-repeat;
+      .img {
+        background: url('../img/dam.jpg') center center no-repeat;
+        background-size: cover;
+      }
     }
     .film6 {
-      background: url('../img/water.jpg') center center no-repeat;
+      .img {
+        background: url('../img/water.jpg') center center no-repeat;
+        background-size: cover;
+      }
     }
     .film7 {
-      background: url('../img/after.jpg') center center no-repeat;
+      .img {
+        background: url('../img/after.jpg') center center no-repeat;
+        background-size: cover;
+      }
     }
   }
   .serier {
