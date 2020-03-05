@@ -24,15 +24,15 @@ footer {
       list-style-type: none;
     }
     ul {
-      li:first-of-type {
-        text-transform: uppercase;
-        color: #f9f9fb;
-        font-size: 14px;
-        &:hover {
-          cursor: inherit;
-          text-decoration: none;
-        }
-      }
+      // li:first-of-type {
+      //   text-transform: uppercase;
+      //   color: #f9f9fb;
+      //   font-size: 14px;
+      //   &:hover {
+      //     cursor: inherit;
+      //     text-decoration: none;
+      //   }
+      // }
       li {
         display: block;
         color: #bbc1c4;

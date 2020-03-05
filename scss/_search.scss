@@ -21,6 +21,12 @@
         color: #3d4348;
       }
     }
+    .search-input.large {
+      display: inline-block;
+    }
+    .search-input.small {
+      display: none;
+    }
     .search-btn {
       cursor: pointer;
       background-color: #212d33;

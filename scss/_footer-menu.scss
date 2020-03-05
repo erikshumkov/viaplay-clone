@@ -1,0 +1,76 @@
+@media (max-width: 768px) {
+  .viaplay,
+  .information,
+  .partner,
+  .about,
+  .follow {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    input[type='checkbox'] {
+      position: absolute;
+      opacity: 0;
+    }
+    label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      text-transform: uppercase;
+      position: relative;
+      margin: 0 0 10px 25px;
+      .arrow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 25px;
+        padding-top: 2px;
+        background: #3c4448;
+        color: #fff;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+      }
+    }
+    ul {
+      margin-left: 25px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+      li:first-of-type {
+        margin-top: 0;
+      }
+      li:last-of-type {
+        margin-bottom: 10px;
+      }
+    }
+    input[type='checkbox']:checked ~ label .arrow {
+      transform: rotate(180deg);
+    }
+    input[type='checkbox']:checked ~ ul {
+      max-height: 350px;
+    }
+  }
+}
+
+.viaplay,
+.information,
+.partner,
+.about,
+.follow {
+  input[type='checkbox'] {
+    position: absolute;
+    opacity: 0;
+  }
+
+  label {
+    text-transform: uppercase;
+  }
+  ul {
+    li:first-of-type {
+      margin-top: 10px;
+    }
+  }
+
+  .arrow {
+    display: none;
+  }
+}
