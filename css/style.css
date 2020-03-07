@@ -660,9 +660,12 @@ footer {
       font-size: 15px;
       margin-bottom: 12px;
       padding-bottom: 1px; }
-      footer .g-container ul li:hover {
-        cursor: pointer;
-        text-decoration: underline; }
+      footer .g-container ul li a {
+        color: #bbc1c4;
+        text-decoration: none;
+        border-bottom: 1px solid transparent; }
+        footer .g-container ul li a:hover {
+          border-bottom: 1px solid #bbc1c4; }
   footer .all-rights {
     display: flex;
     justify-content: center;
@@ -934,25 +937,53 @@ footer {
     text-align: center; }
   footer .all-rights .img {
     display: none; } }
+footer .viaplay input[type='checkbox'],
+footer .information input[type='checkbox'],
+footer .partner input[type='checkbox'],
+footer .about input[type='checkbox'],
+footer .follow input[type='checkbox'] {
+  position: absolute;
+  opacity: 0; }
+footer .viaplay label,
+footer .information label,
+footer .partner label,
+footer .about label,
+footer .follow label {
+  text-transform: uppercase; }
+footer .viaplay ul li:first-of-type,
+footer .information ul li:first-of-type,
+footer .partner ul li:first-of-type,
+footer .about ul li:first-of-type,
+footer .follow ul li:first-of-type {
+  margin-top: 10px; }
+footer .viaplay .arrow,
+footer .information .arrow,
+footer .partner .arrow,
+footer .about .arrow,
+footer .follow .arrow {
+  display: none; }
+
 @media (max-width: 768px) {
-  .viaplay,
-  .information,
-  .partner,
-  .about,
-  .follow {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
-    .viaplay input[type='checkbox'],
-    .information input[type='checkbox'],
-    .partner input[type='checkbox'],
-    .about input[type='checkbox'],
-    .follow input[type='checkbox'] {
+  footer .logo {
+    margin-top: 20px; }
+  footer .viaplay,
+  footer .information,
+  footer .partner,
+  footer .about,
+  footer .follow {
+    border-bottom: 1px solid #3c4448; }
+    footer .viaplay input[type='checkbox'],
+    footer .information input[type='checkbox'],
+    footer .partner input[type='checkbox'],
+    footer .about input[type='checkbox'],
+    footer .follow input[type='checkbox'] {
       position: absolute;
       opacity: 0; }
-    .viaplay label,
-    .information label,
-    .partner label,
-    .about label,
-    .follow label {
+    footer .viaplay label,
+    footer .information label,
+    footer .partner label,
+    footer .about label,
+    footer .follow label {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -960,11 +991,11 @@ footer {
       text-transform: uppercase;
       position: relative;
       margin: 0 0 10px 25px; }
-      .viaplay label .arrow,
-      .information label .arrow,
-      .partner label .arrow,
-      .about label .arrow,
-      .follow label .arrow {
+      footer .viaplay label .arrow,
+      footer .information label .arrow,
+      footer .partner label .arrow,
+      footer .about label .arrow,
+      footer .follow label .arrow {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -972,66 +1003,47 @@ footer {
         padding-top: 2px;
         background: #3c4448;
         color: #fff;
-        height: 35px;
-        width: 35px;
+        height: 32px;
+        width: 32px;
         border-radius: 50%; }
-    .viaplay ul,
-    .information ul,
-    .partner ul,
-    .about ul,
-    .follow ul {
+    footer .viaplay ul,
+    footer .information ul,
+    footer .partner ul,
+    footer .about ul,
+    footer .follow ul {
       margin-left: 25px;
       max-height: 0;
       overflow: hidden;
       transition: max-height 0.4s ease; }
-      .viaplay ul li:first-of-type,
-      .information ul li:first-of-type,
-      .partner ul li:first-of-type,
-      .about ul li:first-of-type,
-      .follow ul li:first-of-type {
-        margin-top: 0; }
-      .viaplay ul li:last-of-type,
-      .information ul li:last-of-type,
-      .partner ul li:last-of-type,
-      .about ul li:last-of-type,
-      .follow ul li:last-of-type {
-        margin-bottom: 10px; }
-    .viaplay input[type='checkbox']:checked ~ label .arrow,
-    .information input[type='checkbox']:checked ~ label .arrow,
-    .partner input[type='checkbox']:checked ~ label .arrow,
-    .about input[type='checkbox']:checked ~ label .arrow,
-    .follow input[type='checkbox']:checked ~ label .arrow {
+      footer .viaplay ul li:first-of-type,
+      footer .information ul li:first-of-type,
+      footer .partner ul li:first-of-type,
+      footer .about ul li:first-of-type,
+      footer .follow ul li:first-of-type {
+        margin-top: 5px; }
+      footer .viaplay ul li,
+      footer .information ul li,
+      footer .partner ul li,
+      footer .about ul li,
+      footer .follow ul li {
+        margin-bottom: 22px; }
+      footer .viaplay ul li:last-of-type,
+      footer .information ul li:last-of-type,
+      footer .partner ul li:last-of-type,
+      footer .about ul li:last-of-type,
+      footer .follow ul li:last-of-type {
+        margin-bottom: 18px; }
+    footer .viaplay input[type='checkbox']:checked ~ label .arrow,
+    footer .information input[type='checkbox']:checked ~ label .arrow,
+    footer .partner input[type='checkbox']:checked ~ label .arrow,
+    footer .about input[type='checkbox']:checked ~ label .arrow,
+    footer .follow input[type='checkbox']:checked ~ label .arrow {
       transform: rotate(180deg); }
-    .viaplay input[type='checkbox']:checked ~ ul,
-    .information input[type='checkbox']:checked ~ ul,
-    .partner input[type='checkbox']:checked ~ ul,
-    .about input[type='checkbox']:checked ~ ul,
-    .follow input[type='checkbox']:checked ~ ul {
+    footer .viaplay input[type='checkbox']:checked ~ ul,
+    footer .information input[type='checkbox']:checked ~ ul,
+    footer .partner input[type='checkbox']:checked ~ ul,
+    footer .about input[type='checkbox']:checked ~ ul,
+    footer .follow input[type='checkbox']:checked ~ ul {
       max-height: 350px; } }
-.viaplay input[type='checkbox'],
-.information input[type='checkbox'],
-.partner input[type='checkbox'],
-.about input[type='checkbox'],
-.follow input[type='checkbox'] {
-  position: absolute;
-  opacity: 0; }
-.viaplay label,
-.information label,
-.partner label,
-.about label,
-.follow label {
-  text-transform: uppercase; }
-.viaplay ul li:first-of-type,
-.information ul li:first-of-type,
-.partner ul li:first-of-type,
-.about ul li:first-of-type,
-.follow ul li:first-of-type {
-  margin-top: 10px; }
-.viaplay .arrow,
-.information .arrow,
-.partner .arrow,
-.about .arrow,
-.follow .arrow {
-  display: none; }
 
 /*# sourceMappingURL=style.css.map */
